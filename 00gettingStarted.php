@@ -1,5 +1,5 @@
 <?php
-
+    echo "<h1>Welcome</h1>";
     echo "Hello There How are you? fine? Are you really?<br>";
     echo "If not, go to a psychologist and take help.<br>";
     echo "My name is ANON3605 and This is PHP whole basics for laravel<br>";
