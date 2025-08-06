@@ -21,34 +21,27 @@ $button2 = $_POST['red'] ?? null;
 $button3 = $_POST['blue'] ?? null;
 
 if ($button1 || $button2 || $button3) {
-    // Only yellow
     if ($button1 && $button2 && $button3) {
         echo "The color is White";
     }
     elseif ($button1 && $button2 && !$button3) {
         echo "The color is Orange";
     }
-    // Red + Blue
     elseif ($button2 && $button3 && !$button1) {
         echo "The color is Violet";
     }
-    // Yellow + Blue
     elseif ($button1 && $button3 && !$button2) {
         echo "The color is Green";
     }
     elseif ($button1 && !$button2 && !$button3) {
         echo "The color is Yellow";
     }
-    // Only red
     elseif ($button2 && !$button1 && !$button3) {
         echo "The color is Red";
     }
-    // Only blue
     elseif ($button3 && !$button1 && !$button2) {
         echo "The color is Blue";
     }
-    // Red + Yellow
-    // All three
 } else {
     echo "No color selected yet.";
 }
