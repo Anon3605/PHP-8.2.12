@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Logical Operators</h1>
-    <form action="" method="post">
+    <form action="06logicalOperator.php" method="post">
         <button name="yellow" value="yellow">YELLOW</button>
         <button name="red" value="red">RED</button>
         <button name="blue" value="blue">BLUE</button>
